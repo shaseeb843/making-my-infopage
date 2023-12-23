@@ -1,0 +1,111 @@
+body{
+    margin-top:0px ;
+    margin-bottom:0px ;
+    margin-left:0px ;
+    margin-right:0px ;
+    background-color: #0d1117;
+}
+nav{
+    padding: 12px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: #010409;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}
+.hamburger{
+    
+    color:#848d97;
+    border: 1px solid gray;
+       
+}
+.logo{
+    color: white;
+    transform: scale(1.4);
+}
+.navspace{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.username{
+    
+    color: white;
+}
+.search:focus {
+    outline: none;
+    border: 2px solid grey;
+    align-items: right;
+}
+.plus {
+    color: grey;
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+ }
+ .abc {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.line {
+    height: 21px;
+    color: white;
+    border: 1px solid gray;
+    width: 0px;
+}
+.create{
+    color: grey;
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.issue{
+    color: grey;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.overview{
+    color:white ;
+}
+.savedinfo{
+    background-color: 010409;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    padding:12px;
+    width: 100vw;
+    
+}
+.x{
+    color:#848d97;    
+}
+.color{
+    color: white;
+}
+.search{
+    background-color: #848d97;
+}
+@media screen and (max-width:400px)
+{
+    .savedinfo
+    {
+        display:none;
+    }
+    .span{
+        display:none;
+    }
+    .x
+    {
+        display: none;
+
+    }
+    .color {
+        display: none;
+    }
+   
+}
